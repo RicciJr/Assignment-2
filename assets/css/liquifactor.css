@@ -27,7 +27,7 @@ liquifactor {
 
 h1 {
     position: relative;
-    left: 25px;
+    left: 14px;
     font-family: sans-serif;
     font-size: 3rem;
     line-height: 2rem;
@@ -52,17 +52,15 @@ a {
     position: relative;
     top: -65px;
     padding: 20px;
-    left: 855px;
+    left: 1038px;
     font-family: Arial, sans-serif;
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
     color: black;
-    
 }
 
 .arrow {
-    
     width: 62px;
     height: 32px; 
 }
@@ -74,12 +72,7 @@ a {
     background-color: none; 
 }
 
-p {
-    position: relative;
-    left: 750px;
-    bottom: -440px;
-    background-color: none; 
-}
+
 
 .strengths {
     z-index: 0;
@@ -93,3 +86,78 @@ p {
     position: relative;
     top: 200px;
 }
+
+.box-1 {
+    position: relative;
+    left: 25px;
+    top: 370px;
+    width: 200px;
+    height: 250px;
+}
+
+.box {
+    padding: 10px;
+    border: 10px solid gray;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-right: 1100px;
+    background-color: lightgray;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 5rem;
+    color: black;
+    position: relative;
+    left: 680px;
+    top: 20px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 2rem;
+    word-wrap: normal;
+    color:white;
+    position: relative;
+    left: -50px;
+    top: -40px;
+}
+
+.paragraph-1 {
+    text-indent: 10px;   
+    text-align: center;
+}
+
+.box-2 {
+    position: relative;
+    left: 25px;
+    top: 30px;
+    width: 200px;
+    height: 250px;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-size: 5rem;
+    color: black;
+    position: relative;
+    left: 680px;
+    top: -355px;
+}
+
+.paragraph-1 {
+    text-indent: 30px;  
+    text-align: center; 
+   
+}
+
+p1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color:blue;
+    position: relative;
+    left: 350px;
+    top: -450px;
+}
+
