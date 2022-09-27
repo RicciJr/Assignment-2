@@ -1,5 +1,4 @@
 # Assignment-2
-# Assignment-2
 Website Purpose: To present Web developing skills
 Website Theme: Developer's portfolio
 
