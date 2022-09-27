@@ -10,13 +10,6 @@
     background-color: lightgray;
 }
 
-.arrowdown {
-    position: relative;
-    left: 750px;
-    bottom: -440px;
-    background-color: none; 
-}
-
 .fixed {
     position: fixed;
 }
@@ -34,130 +27,205 @@ h1 {
 }
 
 h2 {
+    position: relative;
+    top: -3000px;
     color:white;
 }
 
 .metropolis-image {
-    position: absolute;
-    border: 2px solid black;
+    position: fixed;
+    display: inline-block;
+    border: 10px solid black;
     top: 100px;
-    height: 600px;
-    width: 96%;
-    margin: 20px 20px 0 25px;
+    width: 100%;
+    height: 3000px;
     z-index: -1;
 }
 
-a {
+.link-1 {
     display: inline;
     position: relative;
-    top: -65px;
     padding: 20px;
-    left: 1038px;
+    top: -95px;
+    float: right;
     font-family: Arial, sans-serif;
-    text-decoration: none;
-    font-size: 25px;
+    font-size: 3rem;
     font-weight: bold;
     color: black;
 }
 
+a{
+    text-decoration: none;
+}
+
+.arrowcontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
 .arrow {
-    width: 62px;
-    height: 32px; 
-}
-
-.arrowdown {
     position: relative;
-    left: 750px;
-    bottom: -490px;
-    background-color: none; 
+    padding: 50px 50px;
+    margin-top: 2700px;
+    width: 500px;
+    height: 200px; 
+    bottom: -500px;
 }
-
-
 
 .strengths {
-    z-index: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-family: sans-serif;
     text-align: center;
     font-size: 4rem;
-    font-size: 3rem;
-}
-
-.effi {
-    position: relative;
-    top: 200px;
+    z-index: 0;
 }
 
 .box-1 {
     position: relative;
-    left: 25px;
-    top: 370px;
-    width: 200px;
-    height: 250px;
+    Display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -2950px;
+    width: 350px;
+    height: 400px;
 }
 
 .box {
-    padding: 10px;
+    padding: 150px 600px;
     border: 10px solid gray;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    padding-right: 1100px;
+    border-radius: 20px;
     background-color: lightgray;
 }
 
 h3 {
+    display: flex;
+    justify-content: center;
     font-family: sans-serif;
     font-size: 5rem;
     color: black;
     position: relative;
-    left: 680px;
-    top: 20px;
+    top: -3700px;
 }
 
 p {
     font-family: sans-serif;
     font-size: 2rem;
-    word-wrap: normal;
-    color:white;
+    color:brown;
     position: relative;
-    left: -50px;
-    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .paragraph-1 {
+    font-size: 3rem;
+    font-weight: bold;
     text-indent: 10px;   
     text-align: center;
+    top: -3350px;
 }
 
 .box-2 {
     position: relative;
-    left: 25px;
-    top: 30px;
-    width: 200px;
-    height: 250px;
+    Display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -3200px;
+    width: 350px;
+    height: 400px;
 }
 
 h4 {
+    display: flex;
+    justify-content: center;
     font-family: sans-serif;
     font-size: 5rem;
     color: black;
     position: relative;
-    left: 680px;
-    top: -355px;
+    top: -3980px;
 }
 
-.paragraph-1 {
-    text-indent: 30px;  
-    text-align: center; 
+.box-3 {
+    position: relative;
+    Display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -3450px;
+    width: 350px;
+    height: 400px;
+}
+
+.paragraph-2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-indent: 10px;   
+    text-align: center;
+    top: -3650px;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 5rem;
+    color: black;
+    position: relative;
+    top: -4265px;
+}
+
+.paragraph-3 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-indent: 10px;   
+    text-align: center;
+    top: -3950px;
+}
+
+.sidebox {
+    font-family: sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: black;
+    padding: 8px;
+    border: 10px solid gray;
+    border-radius: 20px;
+    background-color: burlywood;
+}
+
+h6 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1190px;
+    height: 250px;
+}
+
+.h6-1 {
+    top: -2500px; 
+}
+.h6-2 {
+    top: -2500px; 
+}
+.h6-3 {
+    top: -2500px; 
+}
+.h6-4 {
+    top: -2500px; 
+}
+
+@media screen and (max-width: 992px) {
+ 
+}
+  
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+ 
+}
+  
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
    
 }
-
-p1 {
-    font-family: sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    color:blue;
-    position: relative;
-    left: 350px;
-    top: -450px;
-}
-
